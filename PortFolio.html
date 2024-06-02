@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script>
+    alert("Welcome to my personal portfolio");
+ </script>
+  <header id="home">
+    
+    <nav>
+      <span class="logoo">AP</span>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+  
+    <main>
+      <section id="home">
+       
+        <div class="home-content">
+    
+          <div class="nav-content">
+            
+            <div class="hi-there">Hi there,</div>
+            <div class="its-me">It's me...           <span class="name">Aagaman Poudel</span></div>
+          
+          <div class="intro">
+            <span class="dynamic-text"></span>
+        </div><img src="main1.png" alt="Profile Picture" class="profile-picture"
+          </div>
+          
+        </div>
+      </section>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <div class="container">
+        <div class="card">
+          <img src="main2.png" alt="Aagaman Poudel">
+          <div class="card-content">
+            <div class="icon-container">
+              <h2><i class="fas fa-user"></i> Aagaman Poudel</h2>
+            </div>
+            <p>Hello! I am Aagaman Poudel, a passionate web developer with expertise in creating dynamic and responsive websites. I love collaborating with others and bringing creative ideas to life through code.</p>
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="web.jpg" alt="Web Development">
+          <div class="card-content">
+            <div class="icon-container">
+              <h2><i class="fas fa-code"></i> Web Development</h2>
+            </div>
+            <p>With a intermediate foundation in HTML, CSS, and JavaScript, I build websites that are not only visually appealing but also highly functional. I stay updated with the latest web technologies and trends. I really love creating unique website.</p>
+            <a href="#projects" class="button">View Projects</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="cb.jpg" alt="Collaboration">
+          <div class="card-content">
+            <div class="icon-container">
+              <h2><i class="fas fa-users"></i> Collaboration</h2>
+            </div>
+            <p>Collaboration is at the heart of my work. I believe in the power of teamwork and enjoy working with others to achieve common goals. My collaborative skills help me thrive in diverse team environments.I am a team involving person.</p>
+            <a href="#teamwork" class="button">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1>My Skills</h1>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <p>Proficient in writing clean and semantic HTML5 code.</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="70%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <p>Experienced in styling websites using CSS3 and modern techniques.</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="60%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Skilled in developing interactive web applications with JavaScript.</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="40%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h1>My Portfolio</h1>
+      <div class="portfolio-container">
+        <div class="portfolio-item">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Brief description of Project 1.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Brief description of Project 2.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project3.jpg" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>Brief description of Project 3.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p>Have a project in mind? Let's discuss how we can bring it to life.</p>
+          <div class="contact-details">
+            <div class="detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Anandanagar,Kathmandu,Nepal</p>
+            </div>
+            <div class="detail">
+              <i class="fas fa-envelope"></i>
+              <p>aagamanpoudel255@gmail.com</p>
+            </div>
+            <div class="detail">
+              <i class="fas fa-phone"></i>
+              <p>9827494801</p>
+            </div>
+          </div>
+        </div>
+        <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" id="submitButton">Submit</button>
+          </form>
+          
+          <div id="alertMessage"></div>
+          
+          <script>
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              var name = document.getElementById('name').value;
+              var email = document.getElementById('email').value;
+              var message = document.getElementById('message').value;
+          
+              if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+                showAlert('Please fill in all fields.', 'alert-danger');
+                return;
+              }
+          
+              // Here you can add code to send the message to the specified email address
+              // For demonstration purposes, let's just show a success message
+              showAlert('Message sent successfully!', 'alert-success');
+              document.getElementById('contact-form').reset();
+            });
+          
+            function showAlert(message, className) {
+              var alertDiv = document.createElement('div');
+              alertDiv.className = 'alert ' + className;
+              alertDiv.appendChild(document.createTextNode(message));
+              var alertContainer = document.getElementById('alertMessage');
+              alertContainer.innerHTML = '';
+              alertContainer.appendChild(alertDiv);
+              setTimeout(function() {
+                alertContainer.innerHTML = '';
+              }, 3000); // Remove the alert message after 3 seconds
+            }
+          </script>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    // Smooth Scrolling
+const navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+    const targetPosition = targetElement.offsetTop;
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
+    });
+  });
+});
+
+// Dynamic Text Animation
+const dynamicText = document.querySelector('.dynamic-text');
+const textArray = ['I am a Student', 'I am a Web Developer', 'I am Collaborative', 'I am a Quick Learner'];
+let textIndex = 0;
+
+function changeText() {
+  dynamicText.textContent = textArray[textIndex];
+  dynamicText.style.color = getRandomColor();
+  textIndex = (textIndex + 1) % textArray.length;
+}
+
+function getRandomColor() {
+  const colors = ['#00cc66', '#ff6600', '#0066cc', '#cc0066'];
+  return colors[Math.floor(Math.random() * colors.length)];
+}
+
+setInterval(changeText, 2000);
+
+// Skill Bar Animation
+const skillBars = document.querySelectorAll('.skill-progress');
+
+skillBars.forEach(bar => {
+  const width = bar.dataset.width;
+  bar.style.setProperty('--skill-width', width);
+});
+ddocument.getElementById('submitButton').addEventListener('click', async () => {
+  const emailInput = document.getElementById('emailInput').value;
+  const messageInput = document.getElementById('messageInput').value;
+
+  if (validateEmail(emailInput) && messageInput.trim() !== '') {
+    const response = await sendMessage(emailInput, messageInput);
+    alert(response);
+    sendEmailToAdmin(emailInput, messageInput);
+  } else {
+    alert('Please enter a valid email address and a non-empty message.');
+  }
+});
+
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+async function sendMessage(email, message) {
+  // Code to send message (e.g., fetch API, AJAX call, etc.)
+  // For demonstration purposes, using a setTimeout to mimic async operation
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve('Message sent successfully');
+    }, 2000); // Simulating a delay of 2 seconds
+  });
+}
+
+function sendEmailToAdmin(email, message) {
+  const adminEmail = 'aagamanpoudel255@gmail.com';
+  // Code to send email to admin (replace this with your email sending code)
+  console.log(`Sending email to admin: ${adminEmail}`);
+  console.log(`Subject: New Message from ${email}`);
+  console.log(`Message: ${message}`);
+}
+
+  </script>
+</body>
+</html>
